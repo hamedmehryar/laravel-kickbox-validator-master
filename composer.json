@@ -1,0 +1,22 @@
+{
+    "name": "hamedmehryar/laravel-kickbox-validator",
+    "description": "A kickbox email validator for form requests in laravel (forked from 'stayum')",
+    "license": "MIT",
+    "keywords": ["laravel", "kickbox", "validator", "validation", "email"],
+    "authors": [
+        {
+            "name": "Hamed Mehryar",
+            "email": "hamed.cs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2",
+        "kickbox/kickbox": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "StuYam\\KickboxValidator\\": "src/"
+        }
+    }
+}
